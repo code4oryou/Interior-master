@@ -4,7 +4,7 @@
     right: 0;
 }
 
-.f-info{
+.f-info {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -12,27 +12,28 @@
 }
 
 .f-social-medias {
-    width:30%;
+    width: 30%;
     padding-right: 8%;
 }
 
-.f-pages,.f-services {
+.f-pages,
+.f-services {
     width: 19%;
 }
 
-.f-logo-text{
+.f-logo-text {
     font-family: 'DM Serif Display';
     font-size: 22px;
     display: flex;
     flex-direction: row;
 }
 
-.f-logo-text>a{
+.f-logo-text>a {
     text-decoration: none;
     color: black;
 }
 
-.f-text{
+.f-text {
     width: 80%;
 }
 
@@ -42,7 +43,7 @@
     align-items: center;
 }
 
-.f-logo>img{
+.f-logo>img {
     width: 100%;
 }
 
@@ -64,11 +65,17 @@
 .f-smedia>ul>li {
     list-style-type: none;
     margin-right: 15%;
+    transition: transform 0.3s ease;
+}
+
+.f-smedia>ul>li:hover {
+    transition: transform 0.4s ease;
+    transform: scale(1.2);
 }
 
 .f-pages>p:first-child,
 .f-services>p:first-child,
-.f-contact>p:first-child{
+.f-contact>p:first-child {
     font-family: 'DM Serif Display';
     font-size: 18px;
     color: #292F36;
@@ -77,7 +84,7 @@
 .f-pages>ul>li>a,
 .f-services>ul>li>a,
 .f-contact>p>a,
-.f-contact>p{
+.f-contact>p {
     font-family: 'Jost';
     font-size: 15px;
     color: #4D5053;

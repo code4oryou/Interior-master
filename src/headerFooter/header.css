@@ -48,4 +48,11 @@ a {
 
 .header-pages>ul>li {
     margin-right: 6%;
+    transition: transform .3s ease;
+    transform: translateZ(0);
+}
+
+.header-pages>ul>li:hover {
+    transition: transform .3s ease;
+    transform: scale(1.08);
 }
